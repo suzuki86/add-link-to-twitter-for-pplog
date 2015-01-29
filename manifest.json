@@ -12,7 +12,7 @@
     "128": "images/128.png"
   },
   "content_scripts": [{
-    "matches": ["*://pplog.net/*"],
+    "matches": ["*://pplog.net/*", "*://www.pplog.net/*"],
     "run_at": "document_end",
     "js": ["script.js"],
     "all_frames": true
